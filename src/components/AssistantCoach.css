@@ -1,0 +1,137 @@
+.assistant-section {
+  padding: 100px 8%;
+  background: #f7f3eb;
+}
+
+/* Heading */
+.assistant-heading {
+  max-width: 750px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.assistant-heading .section-tag {
+  color: #a47c16;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.assistant-heading h2 {
+  font-family: "Cinzel", serif;
+  font-size: 45px;
+  color: #2b170b;
+  margin: 18px 0;
+}
+
+.assistant-heading p {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* Assistant Card */
+.assistant-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 45px;
+  align-items: center;
+
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Assistant Coach Photo */
+.assistant-photo {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  border-radius: 15px;
+  background: #f5f5f5;
+}
+
+.assistant-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Role */
+.assistant-role {
+  color: #a47c16;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Name */
+.assistant-info h3 {
+  font-family: "Cinzel", serif;
+  font-size: 34px;
+  color: #2b170b;
+  margin: 15px 0;
+}
+
+/* Description */
+.assistant-info > p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 600px;
+}
+
+/* Skills */
+.assistant-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.assistant-skills span {
+  padding: 9px 15px;
+  border-radius: 20px;
+  background: #f7f3eb;
+  color: #6d5010;
+  font-size: 13px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+  .assistant-section {
+    padding: 70px 5%;
+  }
+
+  .assistant-heading h2 {
+    font-size: 34px;
+  }
+
+  .assistant-heading p {
+    font-size: 15px;
+  }
+
+  .assistant-card {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 25px;
+  }
+
+  .assistant-photo {
+    height: 420px;
+  }
+
+  .assistant-info h3 {
+    font-size: 28px;
+  }
+}
